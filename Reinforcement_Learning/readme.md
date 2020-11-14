@@ -1,38 +1,36 @@
 强化学习
 ========
-  * [知识脉络](https://github.com/zjuai/AI_Learning_Guidance/tree/main/Reinforcement_Learning#知识脉络)
-  * [网课](https://github.com/zjuai/AI_Learning_Guidance/tree/main/Reinforcement_Learning#网课)
-  * [书籍](https://github.com/zjuai/AI_Learning_Guidance/tree/main/Reinforcement_Learning#书籍)
-  * [经典论文](https://github.com/zjuai/AI_Learning_Guidance/tree/main/Reinforcement_Learning#经典论文)
-    * [典型应用](https://github.com/zjuai/AI_Learning_Guidance/tree/main/Reinforcement_Learning#典型应用)
-    * [强化学习理论](https://github.com/zjuai/AI_Learning_Guidance/tree/main/Reinforcement_Learning#强化学习理论)
-    * [Model-Free RL](https://github.com/zjuai/AI_Learning_Guidance/tree/main/Reinforcement_Learning#model-free-rl)
-    * [Model-Based RL](https://github.com/zjuai/AI_Learning_Guidance/tree/main/Reinforcement_Learning#model-based-rl)
-    * [Imitation Learning & Inverse Reinforcement Learning](https://github.com/zjuai/AI_Learning_Guidance/tree/main/Reinforcement_Learning#imitation-learning--inverse-reinforcement-learning)
-    * [Improving Exploration](https://github.com/zjuai/AI_Learning_Guidance/tree/main/Reinforcement_Learning#improving-exploration)
-    * [Multi-Task and Transfer Learning](https://github.com/zjuai/AI_Learning_Guidance/tree/main/Reinforcement_Learning#multi-task-and-transfer-learning)
-    * [Meta-RL](https://github.com/zjuai/AI_Learning_Guidance/tree/main/Reinforcement_Learning#meta-rl)
-    * [Multi-Agent](https://github.com/zjuai/AI_Learning_Guidance/tree/main/Reinforcement_Learning#multi-agent)
-    * [Hierarchical Learning](https://github.com/zjuai/AI_Learning_Guidance/tree/main/Reinforcement_Learning#hierarchical-learning)
-    * [Safety](https://github.com/zjuai/AI_Learning_Guidance/tree/main/Reinforcement_Learning#safety)
-    * [Memory](https://github.com/zjuai/AI_Learning_Guidance/tree/main/Reinforcement_Learning#memory)
-    * [Scaling RL（分布式RL）](https://github.com/zjuai/AI_Learning_Guidance/tree/main/Reinforcement_Learning#scaling-rl分布式rl)
-    * [RL in the Real World](https://github.com/zjuai/AI_Learning_Guidance/tree/main/Reinforcement_Learning#rl-in-the-real-world)
-    * [RL的可复现性等方面的分析](https://github.com/zjuai/AI_Learning_Guidance/tree/main/Reinforcement_Learning#rl的可复现性等方面的分析)
-  * [More Papers](https://github.com/zjuai/AI_Learning_Guidance/tree/main/Reinforcement_Learning#more-papers)
-    * [Text Domain](https://github.com/zjuai/AI_Learning_Guidance/tree/main/Reinforcement_Learning#text-domain)
-    * [Visual Domain](https://github.com/zjuai/AI_Learning_Guidance/tree/main/Reinforcement_Learning#visual-domain)
-    * [Robotics](https://github.com/zjuai/AI_Learning_Guidance/tree/main/Reinforcement_Learning#robotics)
-    * [Games](https://github.com/zjuai/AI_Learning_Guidance/tree/main/Reinforcement_Learning#games)
+  * [知识脉络](#知识脉络)
+  * [网课](#网课)
+  * [书籍](#书籍)
+  * [经典论文](#经典论文)
+    * [典型应用](#典型应用)
+    * [强化学习理论](#强化学习理论)
+    * [Model-Free RL](#model-free-rl)
+    * [Model-Based RL](#model-based-rl)
+    * [Imitation Learning & Inverse Reinforcement Learning](#imitation-learning--inverse-reinforcement-learning)
+    * [Improving Exploration](#improving-exploration)
+    * [Multi-Task and Transfer Learning](#multi-task-and-transfer-learning)
+    * [Meta-RL](#meta-rl)
+    * [Multi-Agent](#multi-agent)
+    * [Hierarchical Learning](#hierarchical-learning)
+    * [Safety](#safety)
+    * [Memory](#memory)
+    * [Scaling RL（分布式RL）](#scaling-rl分布式rl)
+    * [RL in the Real World](#rl-in-the-real-world)
+    * [RL的可复现性等方面的分析](#rl的可复现性等方面的分析)
+  * [More Papers](#more-papers)
+    * [Text Domain](#text-domain)
+    * [Visual Domain](#visual-domain)
+    * [Robotics](#robotics)
+    * [Games](#games)
 
 ## 知识脉络
 
-<figure>
-  <img src="image/rl_1.png"/>
-  <figcaption style="display: block; text-align: center;">强化学习知识脉络图]</figcaption>
-</figure>
+<img src="image/rl_1.png"  width = "60%" alt="icon"/>\
+图：强化学习知识脉络  
 
-学习路径：马尔科夫过程-\>贝尔曼方程-\>动态规划法-\>蒙特卡洛法-\>时间差分法-\>Sarsa算法-\>Q-learning算法-\>值函数近似法-\>策略梯度法-\>基于模型的强化学习-\>蒙特卡洛树搜索-\>DQN-\>DDPG-\>A3C-\>Rainbow-\>Ape-X-\>PPO-\>Meta-RL
+**学习路径**：马尔科夫过程-\>贝尔曼方程-\>动态规划法-\>蒙特卡洛法-\>时间差分法-\>Sarsa算法-\>Q-learning算法-\>值函数近似法-\>策略梯度法-\>基于模型的强化学习-\>蒙特卡洛树搜索-\>DQN-\>DDPG-\>A3C-\>Rainbow-\>Ape-X-\>PPO-\>Meta-RL
 
 ## 网课
 

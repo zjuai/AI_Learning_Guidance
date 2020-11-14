@@ -1,17 +1,14 @@
 计算机视觉
 ==========
-  * [传统算法的识别和跟踪](##传统算法的识别和跟踪)
-  * [目标检测](##目标检测)
-  * [目标追踪](##目标追踪)
-  * [图像分割](##图像分割)
+  * [传统算法的识别和跟踪](#传统算法的识别和跟踪)
+  * [目标检测](#目标检测)
+  * [目标追踪](#目标追踪)
+  * [图像分割](#图像分割)
   
 ## 传统算法的识别和跟踪
 
-<figure>
-  <img src="image/cv_1.png"/>
-  <figcaption style="display: block; text-align: center;">传统识别跟踪算法的知识脉络图</figcaption>
-</figure>
-
+<img src="image/cv_1.png"  width = "60%" alt="icon"/>\
+图：传统识别跟踪算法的知识脉络图  
 
 对图片或者视频内容的识别和跟踪是一个相当普遍的任务，发展时间很长，历经了从传统方法到机器学习方法的转变，但是在小型无人机或者无人车等计算资源有限的环境下，一般还是考虑采取传统的方法。传统方法里应该就是两个最有代表性的算法，**TLD**和**KCF**。
 
@@ -44,20 +41,14 @@ filter，核相关滤波算法，其核心思想是设计一个滤波的模板�
 
 ## 目标检测
 
-<figure>
-  <img src="image/cv_2.png" />
-  <figcaption style="display: block; text-align: center;">目标检测知识脉络图</figcaption>
-</figure>
+<img src="image/cv_2.png"  width = "60%" alt="icon"/>\
+图：目标检测知识脉络图
 
-<figure>
-  <img src="image/cv_3.png" />
-  <figcaption style="display: block; text-align: center;">目标检测详细知识脉络图</figcaption>
-</figure>
+<img src="image/cv_3.png"  width = "60%" alt="icon"/>\
+图：目标检测详细知识脉络图
 
-<figure>
-  <img src="image/cv_4.jpg"/>
-  <figcaption style="display: block; text-align: center;">目标检测算法发展时间线（<a href="https://github.com/hoya012/deep_learning_object_detection">原图</a>）</figcaption>
-</figure>
+<img src="image/cv_4.jpg"  width = "60%" alt="icon"/>\
+图：目标检测算法发展时间线（<a href="https://github.com/hoya012/deep_learning_object_detection">原图</a>）
 
 经典论文：<https://github.com/hoya012/deep_learning_object_detection>
 看这个链接就够了，从2014-2020按照时间线，列举了有重大贡献的论文和其开源代码。另外还包括了性能对比汇总表（评价指标mAP）。
@@ -77,7 +68,8 @@ Recognition
 tracking，SOT）与多目标追踪（multi object
 tracking）。主要针对的对象是行人、车辆。
 
-![目标追踪知识脉络](image/cv_6.png)
+<img src="image/cv_6.png"  width = "60%" alt="icon"/>\
+图：目标追踪知识脉络
 
 p.s.
 MOT部分，自DeepSort之后，大家慢慢把多目标追踪改造成一个reid和detection的联合任务（用于解决工程情况下容易出现的长时间遮挡情况）
@@ -151,7 +143,8 @@ MOT部分，自DeepSort之后，大家慢慢把多目标追踪改造成一个rei
 
 ## 图像分割
 
-![图像分割主要知识脉络（其实主要就是像素级分割）](image/cv_7.png)
+<img src="image/cv_7.png"  width = "60%" alt="icon"/>\
+图：图像分割主要知识脉络（其实主要就是像素级分割）
 
 分割是个很普遍存在的任务，相关的东西很多很杂乱，所以没有发展脉络图。下面主要说一下几个里程碑。
 
@@ -163,7 +156,8 @@ MOT部分，自DeepSort之后，大家慢慢把多目标追踪改造成一个rei
 
 我个人认为的一个非常重要的里程碑是UNet的诞生。该网络本来是用于医学图像分割的，但是经过千锤百炼证明了自己在自然图像上照样管用，超分辨也经常用它。这个网络极为鲁棒、通用性高、结构也相对简单，强烈推荐大家干什么都可以用它试试。Unet本身是Encoder-Decoder的设计，但是在Encoder和Decoder之间采用了跨层连接的设计，这样网络能够很好地融合低维特征和高维特征，非常适合医学图像里的一些类似肿瘤分割的任务。
 
-![图像分割算法发展时间线](image/cv_8.png)
+<img src="image/cv_8.png"  width = "60%" alt="icon"/>\
+图：图像分割算法发展时间线
 
 #### 上面提到的经典论文
 

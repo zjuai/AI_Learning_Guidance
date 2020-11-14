@@ -1,13 +1,12 @@
 图网络
 ====== 
-  * [斯坦福CS224W:Machine Learning with Graphs](##斯坦福CS224W:Machine\ Learning\ with\ Graphs)
-  * [其他课程和tutorial](##其他课程和tutorial)
-  * [一些综述](##一些综述)
-  * [图网络知识脉络](##图网络知识脉络)
-  * [必读论文](##必读论文)
+  * [斯坦福CS224W:Machine Learning with Graphs](#斯坦福cs224wmachine-learning-with-graphs)
+  * [其他课程和tutorial](#其他课程和tutorial)
+  * [一些综述](#一些综述)
+  * [图网络知识脉络](#图网络知识脉络)
+  * [必读论文](#必读论文)
   
   
-
 ## 斯坦福CS224W:Machine Learning with Graphs
 
 斯坦福大学公开课，前身是Analysis of
@@ -61,10 +60,8 @@ Networks，2019年课改，所以课程中留有不少传统网络的东西。�
 
 ## 图网络知识脉络
 
-<figure>
-  <img src="image/gnn_1.png"/>
-  <figcaption style="display: block; text-align: center;">图网络知识脉络图</figcaption>
-</figure>
+<img src="image/gnn_1.png"  width = "60%" alt="icon"/>\
+
 
 ## 必读论文
 

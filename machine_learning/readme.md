@@ -1,28 +1,22 @@
 机器学习
 ========
 
-  * [知识脉络图](##知识脉络图)
-  * [学习资料](##学习资料)
-  * [相关论文](##相关论文)
+  * [知识脉络图](#知识脉络图)
+  * [学习资料](#学习资料)
+  * [相关论文](#相关论文)
 
 ## 知识脉络图
 
-<figure>
-  <img src="image/ML-1.png"/>
-  <figcaption style="display: block; text-align: center;">机器学习总知识脉络（<a href="https://www.cnblogs.com/wnwin/p/9684520.html">原图</a>）</figcaption>
-</figure>
+机器学习总知识脉络（<a href="https://www.cnblogs.com/wnwin/p/9684520.html">原图</a>）:  
+<img src="image/ML-1.png"  width = "60%" alt="icon"/>\
+ 
 
-针对机器学习分类中各个类别所常用的模型如下图所示：
-<figure>
-  <img src="image/ML-2.png"/>
-  <figcaption style="display: block; text-align: center;">各个类别常用模型（<a href="https://github.com/trekhleb/machine-learning-octave">原图</a>）</figcaption>
-</figure>
+针对机器学习分类中各个类别所常用的模型如下图所示（<a href="https://github.com/trekhleb/machine-learning-octave">原图</a>）：
+<img src="image/ML-2.png"  width = "60%" alt="icon"/>\
 
-而如何分析问题并且选择模型具体如下图所示:
-<figure>
-  <img src="image/ML-3.png"/>
-  <figcaption style="display: block; text-align: center;">各类别模型选择（<a href="https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html">原图</a>）</figcaption>
-</figure>
+而如何分析问题并且选择模型具体如下图所示（<a href="https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html">原图</a>）:
+<img src="image/ML-3.png"  width = "60%" alt="icon"/>\
+
 
 最后推荐<https://whimsical.com/CA7f3ykvXpnJ9Az32vYXva>，里面对于机器学习脉络有着非常详细的叙述
 
