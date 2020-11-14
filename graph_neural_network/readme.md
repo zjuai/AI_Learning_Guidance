@@ -1,10 +1,5 @@
 图网络
-======
-  * [知识脉络图](##知识脉络图)
-  * [经典论文](##经典论文)
-  * [公开课](##公开课)
-  * [书籍](##书籍)
- 
+====== 
   * [斯坦福CS224W:Machine Learning with Graphs](##斯坦福CS224W:Machine\ Learning\ with\ Graphs)
   * [其他课程和tutorial](##其他课程和tutorial)
   * [一些综述](##一些综述)
@@ -13,8 +8,7 @@
   
   
 
-斯坦福CS224W:Machine Learning with Graphs
------------------------------------------
+## 斯坦福CS224W:Machine Learning with Graphs
 
 斯坦福大学公开课，前身是Analysis of
 Networks，2019年课改，所以课程中留有不少传统网络的东西。教授发音清晰（俄国口音真的很清晰，音节和音节之间分得明明白白）。\
@@ -46,73 +40,60 @@ Networks，2019年课改，所以课程中留有不少传统网络的东西。�
 | 20   | Limitations on Graph Neural Networks                      | 讲了GNN的2个缺陷：1. 对于不同结构的图可能会产生相同的结果（即不是单射），由此提出了GIN；2. 和其他DNN一样，GNN也会被对抗攻击. 另外提出了GNN一些未来的工作.    | 
 | 21   | Applications of Graph Neural Networks                     | 讲了GNN的三个应用：主要篇幅在讲用于推荐系统的PinSage，另外还有用于异质网络的Decagon，以及第12节讲过的药物生成GCPN.        |
 
-其他课程和tutorial
-------------------
+## 其他课程和tutorial
 
 1.  宾夕法尼亚大学，ESE680: Graph Neural Networks\
     宾大的新课程，仍在更新当中。相较斯坦福大学的课程更为machine
     learning一些。老师长得像小罗伯特·唐尼。\
     课程网站：<https://gnn.seas.upenn.edu/>
-
 2.  NLPCC Tutorial\
     NLPCC2020的图神经网络教程，内容很新，并且与其他AI领域（CV、NLP）联系紧密。\
     slides地址：<http://tcci.ccf.org.cn/conference/2020/dldoc/tutorial_3.pdf>
 
-一些综述
---------
+## 一些综述
 
 1.  [Deep Learning on Graphs: A
     Survey](https://arxiv.org/pdf/1812.04202.pdf)
-
 2.  [Graph Neural Networks: A Review of Methods and
     Applications](https://arxiv.org/pdf/1812.08434.pdf)
-
 3.  [A Comprehensive Survey on Graph Neural
     Networks](https://ieeexplore.ieee.org/abstract/document/9046288)
 
-图网络知识脉络
---------------
+## 图网络知识脉络
 
 <figure>
   <img src="image/gnn_1.png"/>
   <figcaption style="display: block; text-align: center;">图网络知识脉络图</figcaption>
 </figure>
 
-必读论文
---------
+## 必读论文
 
 -   Ng, A. Y., Jordan, M. I., & Weiss, Y. (2002). On spectral
     clustering: Analysis and an algorithm. In Advances in neural
     information processing systems (pp. 849-856).\
     吴恩达老师引用量第二的文章，谱聚类的代表作。
-
 -   Shuman, D. I., Narang, S. K., Frossard, P., Ortega, A., &
     Vandergheynst, P. (2013). The emerging field of signal processing on
     graphs: Extending high-dimensional data analysis to networks and
     other irregular domains. IEEE signal processing magazine, 30(3),
     83-98.\
     图信号处理的基本方法，算是基础。
-
 -   Defferrard, M., Bresson, X., & Vandergheynst, P. (2016).
     Convolutional neural networks on graphs with fast localized spectral
     filtering. In Advances in neural information processing systems (pp.
     3844-3852).\
     ChebNet，图网络中频域卷积的代表作。
-
 -   Kipf, T. N., & Welling, M. (2016). Semi-supervised classification
     with graph convolutional networks. arXiv preprint arXiv:1609.02907.\
     GCN的原始论文，对ChebNet做了简化和修改。
-
 -   Hamilton, W., Ying, Z., & Leskovec, J. (2017). Inductive
     representation learning on large graphs. In Advances in neural
     information processing systems (pp. 1024-1034).\
     GraphSage，针对GCN只能处理固定图的缺陷，提出了一种归纳（inductive）学习的方法，使模型可以处理没有见过的节点。
-
 -   Veličković, P., Cucurull, G., Casanova, A., Romero, A., Lio, P., &
     Bengio, Y. (2017). Graph attention networks. arXiv preprint
     arXiv:1710.10903.\
     GAT，图上的注意力机制。
-
 -   Chami, I., Ying, Z., Ré, C., & Leskovec, J. (2019). Hyperbolic graph
     convolutional neural networks. In Advances in neural information
     processing systems (pp. 4868-4879).\

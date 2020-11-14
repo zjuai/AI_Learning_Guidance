@@ -5,8 +5,7 @@
   * [目标追踪](##目标追踪)
   * [图像分割](##图像分割)
   
-传统算法的识别和跟踪
---------------------
+## 传统算法的识别和跟踪
 
 <figure>
   <img src="image/cv_1.png"/>
@@ -32,23 +31,18 @@ filter，核相关滤波算法，其核心思想是设计一个滤波的模板�
 上面提到的经典论文：
 
 -   TLD:<http://vision.stanford.edu/teaching/cs231b_spring1415/papers/Kalal-PAMI.pdf>
-
 -   KCF:<https://arxiv.org/pdf/1404.7584>
-
 -   DS-KCF:<https://pdfs.semanticscholar.org/3aa4/573f8735e984c25db8b2a805235bf22dc042.pdf>
 
 #### 相关的网课与书籍
 
 -   数字图像处理（冈萨雷斯版） 大部头书籍，很难啃，一般当百科全书用。
-
 -   斯坦福大学CS231n: [Convolutional Neural Networks for Visual
     Recognition](http://cs231n.stanford.edu/syllabus.html)。经典CS231n，主要涉及深度学习方法。
-
 -   普林斯顿大学的tracking的benchmark:
     <http://tracking.cs.princeton.edu/>
 
-目标检测
---------
+## 目标检测
 
 <figure>
   <img src="image/cv_2.png" />
@@ -77,8 +71,7 @@ Recognition
 3. 天池-目标检测   
 链接：<https://tianchi.aliyun.com/course/video?liveId=41141>
 
-目标追踪
---------
+## 目标追踪
 
 现有的目标追踪主要分为两个任务方向，即单目标追踪（single object
 tracking，SOT）与多目标追踪（multi object
@@ -95,30 +88,25 @@ MOT部分，自DeepSort之后，大家慢慢把多目标追踪改造成一个rei
     论文地址：<https://arxiv.org/pdf/1606.09549.pdf>（ECCV 2016）\
     代码：<https://github.com/torrvision/siamfc-tf>\
     主要贡献：单目标追踪siamese系列的开山之作，目前大半的SOT任务都使用siamese网络完成，主要的思路是将跟踪当作匹配问题，帮助模型高效精确定位
-
 2.  GradNe：\
     论文地址：<https://arxiv.org/pdf/1909.06800.pdf>（ICCV 2019）\
     代码：<https://github.com/LPXTT/GradNet-Tensorflow>\
     主要贡献：针对Siam系列网络不实时更新背景信息的问题，使用在线BP熏蒸template，帮助模型学习背景信息，提升模型的精度。
-
 3.  IoU Tracker：\
     论文地址：<http://elvera.nue.tu-berlin.de/files/1517Bochinski2017.pdf>（AVSS
     2017）\
     代码：<https://github.com/bochinski/iou-tracker>（非官方复现）\
     主要贡献：提出了一种简单高效的跟踪模型——IOU
     Tracker。速度快、基于TBD(tracking-by-detection)、不需要图像信息。
-
 4.  Sort：\
     论文地址：<https://arxiv.org/pdf/1602.00763.pdf>（ICIP 2017）\
     代码：<https://github.com/abewley/sort>\
     主要贡献：引入kalman滤波预测目标状态，结合检测框位置和IOU的匈牙利算法进行检测框的匹配，提升算法精度，且检测较为高效。
-
 5.  DeepSort： 论文地址：<https://arxiv.org/pdf/1703.07402.pdf>（WACV
     2018）\
     代码：<https://github.com/nwojke/deep_sort>\
     主要贡献：在匹配阶段引入马氏距离和表观匹配（reid），结合运动和图像信息减少了预测时出现的ID
     switch。
-
 6.  Tracking without bells and whistles：\
     论文地址：<https://arxiv.org/pdf/1903.05625.pdf>（ICCV 2019）\
     代码：<https://github.com/phil-bergmann/tracking_wo_bnw>\
@@ -129,52 +117,39 @@ MOT部分，自DeepSort之后，大家慢慢把多目标追踪改造成一个rei
 
 -   [PETS2009](http://www.cvg.reading.ac.uk/PETS2009/a.html) : An old
     dataset.
-
 -   [MOT dataset](https://motchallenge.net/) : A dataset for
     multi-person detection and tracking, mostly used.
-
 -   [UA-DETRAC](http://detrac-db.rit.albany.edu/) : A dataset for
     multi-car detection and tracking.
-
 -   [AVSS2018 Challenge](https://iwt4s2018.wordpress.com/challenge/) :
     AVSS2018 Challenge based on UA-DETRAC is opened!
-
 -   [DukeMTMC](http://vision.cs.duke.edu/DukeMTMC/) : A dataset for
     multi-camera multi-person tracking.
-
 -   [PoseTrack](https://posetrack.net/): A dataset for multi-person pose
     tracking.
-
 -   [NVIDIA AI CITY Challenge](https://www.aicitychallenge.org/):
     Challenges including “Traffic Flow Analysis”, “Anomaly Detection”
     and “Multi-sensor Vehicle Detection and Reidentification”, you may
     find some insteresting codes on their Github repos
-
 -   [Vis Drone](http://www.aiskyeye.com/views/index): Tracking videos
     captured by drone-mounted cameras.
-
 -   [JTA
     Dataset](http://imagelab.ing.unimore.it/imagelab/page.asp?IdPage=25):
     A huge dataset for pedestrian pose estimation and tracking in urban
     scenarios created by exploiting the highly photorealistic video game
     Grand Theft Auto V developed by Rockstar North.
-
 -   [Path Track](http://people.ee.ethz.ch/~daid/pathtrack/): A new
     dataset with many scenes.
-
 -   [MOTS MOTS](https://www.vision.rwth-aachen.de/page/mots):
     Multi-Object Tracking and Segmentation. In CVPR 2019
 
 #### Reference
 
 1.  <https://github.com/SpyderXu/multi-object-tracking-paper-list>
-
 2.  <https://zhuanlan.zhihu.com/p/65177442>
-
 3.  <https://link.zhihu.com/?target=https%3A//github.com/huanglianghua/mot-papers/blob/master/README.md>
 
-图像分割
---------
+## 图像分割
 
 ![图像分割主要知识脉络（其实主要就是像素级分割）](image/cv_7.png)
 
@@ -194,11 +169,9 @@ MOT部分，自DeepSort之后，大家慢慢把多目标追踪改造成一个rei
 
 -   FCN\
     论文地址：<https://arxiv.org/abs/1411.4038>
-
 -   Deeplab系列以最新的Deeplab v3+为例（实际上也是好几年前了）\
     论文地址：<https://arxiv.org/pdf/1802.02611.pdf>\
     代码地址：<https://github.com/tensorflow/models/tree/master/research/deeplab>
-
 -   UNet\
     论文地址：<https://arxiv.org/pdf/1505.04597.pdf>\
     代码地址：<https://github.com/jakeret/tf_unet>
