@@ -19,6 +19,6 @@ latex完整编译步骤：xelatex -> bibtex -> xelatex -> xelatex。也可以直
 Latex Template: <https://github.com/ElegantLaTeX/ElegantPaper>
 
 ## Authors
-This project is developed by menbers of [Student AI Association of Zhejiang University](https://github.com/zjuai).
+This project is developed by members of [Student AI Association of Zhejiang University](https://github.com/zjuai).
 
 
