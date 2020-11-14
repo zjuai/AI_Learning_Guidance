@@ -1,7 +1,37 @@
 强化学习
 ========
+  * [知识脉络](##知识脉络)
+  * [网课](##网课)
+  * [书籍](##书籍)
+  * [经典论文](##经典论文)
+    * [典型应用](###典型应用)
+    * [强化学习理论](###强化学习理论)
+    * [Model-Free RL](###Model-Free\ RL)
+    * [Model-Based RL](###Model-Based\ RL)
+    * [Imitation Learning & Inverse Reinforcement Learning](###Imitation\ Learning\ &\ Inverse\ Reinforcement\ Learning)
+    * [Improving Exploration](###improving-exploration)
+    * [Multi-Task and Transfer Learning](###multi-task-and-transfer-learning)
+    * [Meta-RL](###Meta-RL)
+    * [Multi-Agent](###multi-agent)
+    * [Hierarchical Learning](###hierarchical-learning)
+    * [Safety](###Safety)
+    * [Memory](###Memory)
+    * [Scaling RL（分布式RL）](###Scaling\ RL\（分布式RL）)
+    * [RL in the Real World](###RL\ in\ the\ Real\ World)
+    * [RL的可复现性等方面的分析](###RL的可复现性等方面的分析)
+  * [More Papers](##More\ Papers)
+    * [Text Domain](###text-domain)
+    * [Visual Domain](###visual-domain)
+    * [Robotics](###robotics)
+    * [Games](###games)
 
-![强化学习知识脉络图](image/rl_1.png)
+
+知识脉络
+----
+<figure>
+  <img src="image/rl_1.png"/>
+  <figcaption style="display: block; text-align: center;">强化学习知识脉络图]</figcaption>
+</figure>
 
 学习路径：马尔科夫过程-\>贝尔曼方程-\>动态规划法-\>蒙特卡洛法-\>时间差分法-\>Sarsa算法-\>Q-learning算法-\>值函数近似法-\>策略梯度法-\>基于模型的强化学习-\>蒙特卡洛树搜索-\>DQN-\>DDPG-\>A3C-\>Rainbow-\>Ape-X-\>PPO-\>Meta-RL
 
@@ -643,13 +673,6 @@
     <https://arxiv.org/abs/1907.02057>, Wang et al, 2019.
 
 ## More Papers
-
-### Bookmarks
-
-  * [Text Domain](##text-domain)
-  * [Visual Domain](##visual-domain)
-  * [Robotics](##robotics)
-  * [Games](##games)
 
 ### Text Domain
 
