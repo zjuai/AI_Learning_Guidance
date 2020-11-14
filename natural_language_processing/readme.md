@@ -1,6 +1,16 @@
 自然语言处理
 ============
 
+  * [知识脉络图](##知识脉络图)
+  * [经典论文](##经典论文)
+  * [公开课](##公开课)
+  * [书籍](##书籍)
+  * [其他资料](##其他资料)
+  * [国际顶级会议](##国际顶级会议)
+
+知识脉络图
+----------
+
 <figure>
   <img src="image/nlp_1.png"/>
   <figcaption style="display: block; text-align: center;">自然语言处理任务分类以及子领域（<a href="https://www.jianshu.com/p/d80b065bdcf0">原图</a>）</figcaption>

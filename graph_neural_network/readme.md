@@ -1,5 +1,17 @@
 图网络
 ======
+  * [知识脉络图](##知识脉络图)
+  * [经典论文](##经典论文)
+  * [公开课](##公开课)
+  * [书籍](##书籍)
+ 
+  * [斯坦福CS224W:Machine Learning with Graphs](##斯坦福CS224W:Machine\ Learning\ with\ Graphs)
+  * [其他课程和tutorial](##其他课程和tutorial)
+  * [一些综述](##一些综述)
+  * [图网络知识脉络](##图网络知识脉络)
+  * [必读论文](##必读论文)
+  
+  
 
 斯坦福CS224W:Machine Learning with Graphs
 -----------------------------------------
