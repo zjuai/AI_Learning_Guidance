@@ -27,7 +27,8 @@
 
 ## 知识脉络
 
-<img src="image/rl_1.png"  width = "60%" alt="icon"/>\
+<img src="image/rl_1.png"  width = "60%" alt="icon"/>  
+
 图：强化学习知识脉络  
 
 **学习路径**：马尔科夫过程-\>贝尔曼方程-\>动态规划法-\>蒙特卡洛法-\>时间差分法-\>Sarsa算法-\>Q-learning算法-\>值函数近似法-\>策略梯度法-\>基于模型的强化学习-\>蒙特卡洛树搜索-\>DQN-\>DDPG-\>A3C-\>Rainbow-\>Ape-X-\>PPO-\>Meta-RL

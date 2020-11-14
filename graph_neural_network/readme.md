@@ -1,10 +1,10 @@
 图网络
 ====== 
   * [斯坦福CS224W:Machine Learning with Graphs](#斯坦福cs224wmachine-learning-with-graphs)
-  * [其他课程和tutorial](#其他课程和tutorial)
-  * [一些综述](#一些综述)
-  * [图网络知识脉络](#图网络知识脉络)
-  * [必读论文](#必读论文)
+  * [其他课程和tutorial](https://github.com/zjuai/AI_Learning_Guidance/tree/main/graph_neural_network#其他课程和tutorial)
+  * [一些综述](https://github.com/zjuai/AI_Learning_Guidance/tree/main/graph_neural_network#一些综述)
+  * [图网络知识脉络](https://github.com/zjuai/AI_Learning_Guidance/tree/main/graph_neural_network#图网络知识脉络)
+  * [必读论文](https://github.com/zjuai/AI_Learning_Guidance/tree/main/graph_neural_network#必读论文)
   
   
 ## 斯坦福CS224W:Machine Learning with Graphs
@@ -60,7 +60,7 @@ Networks，2019年课改，所以课程中留有不少传统网络的东西。�
 
 ## 图网络知识脉络
 
-<img src="image/gnn_1.png"  width = "60%" alt="icon"/>\
+<img src="image/gnn_1.png"  width = "60%" alt="icon"/>
 
 
 ## 必读论文

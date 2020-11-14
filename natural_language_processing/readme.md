@@ -10,16 +10,20 @@
 
 ## 知识脉络图
 
-<img src="image/nlp_1.png"  width = "60%" alt="icon"/>\
+<img src="image/nlp_1.png"  width = "60%" alt="icon"/>  
+
 图：自然语言处理任务分类以及子领域（<a href="https://www.jianshu.com/p/d80b065bdcf0">原图</a>）  
 
-<img src="image/nlp_2.png"  width = "60%" alt="icon"/>\
+<img src="image/nlp_2.png"  width = "60%" alt="icon"/>  
+
 图：自然语言处理知识脉络图（<a href="https://www.jiqizhixin.com/articles/2019-06-21">原图</a>）  
 
-<img src="image/nlp_3.png"  width = "60%" alt="icon"/>\
+<img src="image/nlp_3.png"  width = "60%" alt="icon"/>  
+
 图：Group1到Group3：底层/基础任务到顶层/具体应用（<a href="https://www.packtpub.com/product/python-natural-language-processing/9781787121423">原图</a>）  
 
-<img src="image/nlp_4.png"  width = "50%" alt="icon"/>\
+<img src="image/nlp_4.png"  width = "50%" alt="icon"/>  
+
 图：自然语言处理任务子领域之间的交叉关系（<a href="https://bbds.ma/wp-content/uploads/2017/11/BBDS-Deep-Learning-NLP-Text-Mining-2.pdf">原图</a>）  
 
 
